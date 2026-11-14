@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f3">
+  <meta name="description" content="A practical 30-day production planner for Narmae Wellness Hub Facebook Reels.">
+  <title>NWH Reels Planner</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Narmae Wellness Hub Reels Planner home">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="brand-copy">
+          <strong>Narmae Wellness Hub®</strong>
+          <span>Facebook Reels planner</span>
+        </span>
+      </a>
+      <div class="toolbar-actions">
+        <label class="start-date-control" for="start-date">
+          <span>Campaign start</span>
+          <input id="start-date" type="date" aria-label="Campaign start date">
+        </label>
+        <button class="button button-secondary" id="copy-campaign-prompt" type="button">Copy content prompt</button>
+        <button class="button button-secondary" id="import-json-button" type="button">Restore backup</button>
+        <input id="import-json" class="sr-only" type="file" accept="application/json,.json" tabindex="-1" aria-label="Choose a planner JSON backup">
+        <button class="button button-secondary" id="export-json" type="button">Back up plan</button>
+        <button class="button button-primary" id="export-csv" type="button">Export schedule</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">30-day campaign · Facebook only · PHT</p>
+          <h1 id="page-title">Plan the work. Publish with care.</h1>
+          <p class="intro-copy">Track 90 distinct Reels from first idea through Meta Business Suite scheduling. Every educational post has to show people how to act, not just what to think.</p>
+        </div>
+        <aside class="workflow-note">
+          <span class="note-icon" aria-hidden="true">✓</span>
+          <p><strong>Batch production, then schedule.</strong><br>Meta Business Suite publishes videos you have already uploaded and scheduled. This planner does not create, edit, upload, or publish videos for you.</p>
+        </aside>
+      </section>
+
+      <section class="cadence" aria-label="Daily editorial schedule">
+        <article class="cadence-item">
+          <span class="cadence-time">09:00</span>
+          <div><strong>Awakening</strong><span>Relatable insight; start a conversation.</span></div>
+        </article>
+        <article class="cadence-item">
+          <span class="cadence-time">13:00</span>
+          <div><strong>Education</strong><span>Practical steps people can apply.</span></div>
+        </article>
+        <article class="cadence-item">
+          <span class="cadence-time">18:00</span>
+          <div><strong>Promotion</strong><span>Explain the NWH offer clearly.</span></div>
+        </article>
+      </section>
+
+      <section class="overview" aria-label="Campaign progress">
+        <div class="overview-copy">
+          <div>
+            <p class="eyebrow">Production overview</p>
+            <h2 id="progress-heading">Your 90-Reel board</h2>
+          </div>
+          <p id="progress-text" class="muted">Start by setting a campaign date and adding a distinct angle to each Reel.</p>
+        </div>
+        <div class="progress-track" role="progressbar" aria-label="Videos scheduled or published" aria-valuemin="0" aria-valuemax="90" aria-valuenow="0">
+          <div id="progress-bar" class="progress-fill"></div>
+        </div>
+        <div class="overview-stats">
+          <div><strong id="stat-planned">90</strong><span>Reels planned</span></div>
+          <div><strong id="stat-ready">0</strong><span>Content-ready</span></div>
+          <div><strong id="stat-scheduled">0</strong><span>Scheduled / published</span></div>
+        </div>
+      </section>
+
+      <section class="board-controls" aria-label="Filter the Reels board">
+        <div class="search-wrap">
+          <label class="sr-only" for="search">Search posts</label>
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" placeholder="Search themes, hooks, scripts…">
+        </div>
+        <label class="filter-control"><span>Day</span><select id="day-filter"><option value="all">All 30 days</option></select></label>
+        <label class="filter-control"><span>Post type</span><select id="type-filter"><option value="all">All post types</option><option value="awakening">Awakening</option><option value="education">Education</option><option value="promotion">Promotion</option></select></label>
+        <label class="filter-control"><span>Stage</span><select id="status-filter"><option value="all">All stages</option></select></label>
+      </section>
+
+      <section id="board" class="board" aria-live="polite" aria-label="Reels by campaign day"></section>
+      <p id="empty-state" class="empty-state" hidden>No Reels match those filters. Try changing your search or filters.</p>
+    </main>
+
+    <footer class="app-footer">
+      <p><strong>Publishing boundary:</strong> upload and schedule finished MP4s in Meta Business Suite. GitHub hosts this planner; it does not publish Reels. No Make.com or API keys are needed for this workflow.</p>
+      <p class="footer-small">Your plan is saved in this browser. Export a JSON backup before changing devices or clearing browser data.</p>
+    </footer>
+  </div>
+
+  <dialog id="editor" class="editor-dialog" aria-labelledby="editor-title">
+    <form id="editor-form" method="dialog">
+      <div class="dialog-header">
+        <div>
+          <p id="editor-meta" class="eyebrow"></p>
+          <h2 id="editor-title">Edit Reel</h2>
+        </div>
+        <button class="icon-button" id="close-editor" type="button" aria-label="Close editor">×</button>
+      </div>
+      <div id="editor-fields" class="editor-fields"></div>
+      <p id="editor-error" class="editor-error" role="alert" hidden></p>
+      <div class="dialog-actions">
+        <button class="button button-secondary" id="copy-post-prompt" type="button">Copy prompt for this Reel</button>
+        <span class="dialog-spacer"></span>
+        <button class="button button-secondary" id="cancel-edit" type="button">Cancel</button>
+        <button class="button button-primary" type="submit">Save Reel</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
+
