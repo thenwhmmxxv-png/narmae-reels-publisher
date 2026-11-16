@@ -4,7 +4,7 @@ Use this prompt when preparing the campaign in ChatGPT. Create one Reel at a tim
 
 ## Campaign purpose
 
-Prepare 90 distinct Facebook Reels for a 30-day test for Narmae Wellness Hub® (NWH). The audience is Philippine spa owners, managers, therapists, and wellness clients.
+Prepare 90 distinct Instagram Reels for a 30-day test for Narmae Wellness Hub® (NWH). The audience is Philippine spa owners, managers, therapists, and wellness clients.
 
 ## Daily editorial roles (PHT)
 
@@ -52,11 +52,10 @@ Return: post role and day; theme; distinct angle; hook; visual direction; natura
 1. Prepare content for all 90 Reels in batches.
 2. Source suitable stock footage and licensed background music; retain license evidence.
 3. Edit vertical MP4s with voice-over, subtitles, and music.
-4. Upload finished Reels to the Narmae Wellness Hub® Facebook Page and schedule them in Meta Business Suite.
+4. Upload finished Reels to the Narmae Wellness Hub® Instagram account and schedule them in Meta Business Suite.
 
 Meta Business Suite publishes videos that have already been uploaded and scheduled. It does not create scripts, download media, edit videos, or upload new Reels. This initial 30-day workflow uses batch production and Meta Business Suite scheduling; it does not require Make.com.
 
 ## Pixabay media matching
 
 For every Reel, search Pixabay using that post's theme, angle, and visual direction. Choose a genuine live-action clip that fits the Filipino setting and faceless visual rules. Search for separate background music using the post's tone; keep it beneath Taglish dialogue. Review every candidate instead of treating search results as approved assets. Record the exact video and track pages, contributor names, and license/download evidence. Check the item's content type and any third-party rights, such as recognizable people, logos, or property. Pixabay's Content License describes free, royalty-free use with restrictions; stock media must be part of a larger creative work and must not be redistributed on its own. See the [Pixabay Content License](https://pixabay.com/service/license-summary/) and [music-use FAQ](https://pixabay.com/service/faq/).
-
