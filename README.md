@@ -1,6 +1,6 @@
 # Narmae Wellness Hub Reels Planner
 
-A lightweight, GitHub-ready planning board for the Narmae Wellness Hub® 30-day Instagram Reels campaign.
+A lightweight, GitHub-ready planning board for the Narmae Wellness Hub® 30-day Facebook Reels campaign.
 
 ## What it does
 
@@ -18,11 +18,11 @@ Open `index.html` in a current browser. Set the campaign start date, open each R
 
 ## Publishing workflow
 
-This planner organizes batch production; it does not create video files or connect to Instagram. Source licensed footage and music, retain license evidence, edit finished vertical MP4s, then upload and schedule them on the Narmae Wellness Hub® Instagram account in Meta Business Suite. Meta Business Suite automatically publishes Reels that are already uploaded and scheduled.
+This planner organizes batch production; it does not create video files or connect to Facebook. Source licensed footage and music, retain license evidence, edit finished vertical MP4s, then upload and schedule them on the Narmae Wellness Hub® Facebook Page in Meta Business Suite. Meta Business Suite automatically publishes Reels that are already uploaded and scheduled.
 
 For each Reel, use the Pixabay search links in its editor to find a context-matched live-action clip and background track. Review each asset and its restrictions, then record the exact item pages and license/download evidence. Pixabay allows royalty-free use under its Content License restrictions; it does not clear every third-party right in every asset. Review the [Pixabay Content License](https://pixabay.com/service/license-summary/) and [Pixabay music FAQ](https://pixabay.com/service/faq/).
 
-No Make.com or API keys are required for this initial workflow. Do not add Instagram credentials or tokens to this static app.
+No Make.com or API keys are required for this initial workflow. Do not add Facebook credentials or tokens to this static app.
 
 ## GitHub use
 
