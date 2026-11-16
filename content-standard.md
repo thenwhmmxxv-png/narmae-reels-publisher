@@ -4,7 +4,7 @@ Use this prompt when preparing the campaign in ChatGPT. Create one Reel at a tim
 
 ## Campaign purpose
 
-Prepare 90 distinct Instagram Reels for a 30-day test for Narmae Wellness Hub® (NWH). The audience is Philippine spa owners, managers, therapists, and wellness clients.
+Prepare 90 distinct Facebook Reels for a 30-day test for Narmae Wellness Hub® (NWH). The audience is Philippine spa owners, managers, therapists, and wellness clients.
 
 ## Daily editorial roles (PHT)
 
@@ -52,7 +52,7 @@ Return: post role and day; theme; distinct angle; hook; visual direction; natura
 1. Prepare content for all 90 Reels in batches.
 2. Source suitable stock footage and licensed background music; retain license evidence.
 3. Edit vertical MP4s with voice-over, subtitles, and music.
-4. Upload finished Reels to the Narmae Wellness Hub® Instagram account and schedule them in Meta Business Suite.
+4. Upload finished Reels to the Narmae Wellness Hub® Facebook Page and schedule them in Meta Business Suite.
 
 Meta Business Suite publishes videos that have already been uploaded and scheduled. It does not create scripts, download media, edit videos, or upload new Reels. This initial 30-day workflow uses batch production and Meta Business Suite scheduling; it does not require Make.com.
 
