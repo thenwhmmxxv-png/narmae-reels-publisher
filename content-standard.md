@@ -45,7 +45,13 @@ Do not invent service terms, prices, guarantees, deliverables, or policies. If a
 
 ## Required deliverable for each Reel
 
-Return: post role and day; theme; distinct angle; hook; visual direction; natural Taglish script or voice-over; caption; CTA; role-specific teaching or offer details; a Pixabay video search phrase matched to the theme and visual direction; and a background-music mood/search phrase that supports the spoken Taglish. For education, include the full practical sequence. For promotion, state the real offer, included service, process, boundaries, and next step clearly without hiding it behind a vague cliffhanger.
+Return: post role and day; theme; distinct angle; strong opening hook; visual direction; natural Taglish script or voice-over; caption; CTA; role-specific teaching or offer details; and a Pixabay video search phrase matched to the theme and visual direction. Use the same supplied “Bossa Nova Soulful Music” track by andriih (Pixabay item 630197) as quiet background music across all Reels; do not suggest a replacement song. For education, include the full practical sequence. For promotion, state the real offer, included service, process, boundaries, and next step clearly without hiding it behind a vague cliffhanger.
+
+## Shared campaign soundtrack
+
+Use the user's supplied MP3, “Bossa Nova Soulful Music” by andriih (Pixabay item 630197), as the recurring background track in every Reel. Keep it below the spoken Taglish so the narration remains easy to hear. Treat the MP3 as part of each finished video; do not post or distribute it by itself. Keep the download record and track source link with the campaign materials. Pixabay permits music in original commercial video projects, but its FAQ says social platforms may still automatically mute or block a track; check the first Facebook upload before scheduling the rest.
+
+Track source: https://pixabay.com/cs/music/bossa-nova-bossa-nova-soulful-music-630197/
 
 ## Production and publication boundary
 
@@ -58,4 +64,4 @@ Meta Business Suite publishes videos that have already been uploaded and schedul
 
 ## Pixabay media matching
 
-For every Reel, search Pixabay using that post's theme, angle, and visual direction. Choose a genuine live-action clip that fits the Filipino setting and faceless visual rules. Search for separate background music using the post's tone; keep it beneath Taglish dialogue. Review every candidate instead of treating search results as approved assets. Record the exact video and track pages, contributor names, and license/download evidence. Check the item's content type and any third-party rights, such as recognizable people, logos, or property. Pixabay's Content License describes free, royalty-free use with restrictions; stock media must be part of a larger creative work and must not be redistributed on its own. See the [Pixabay Content License](https://pixabay.com/service/license-summary/) and [music-use FAQ](https://pixabay.com/service/faq/).
+For every Reel, search Pixabay using that post's theme, angle, and visual direction. Choose a genuine live-action clip that fits the Filipino setting and faceless visual rules. Use the shared campaign soundtrack above for all posts; keep it beneath Taglish dialogue. Review each video candidate instead of treating search results as approved assets. Record the video source and the soundtrack's download evidence. Check the item's content type and any third-party rights, such as recognizable people, logos, or property. Pixabay's Content License describes free, royalty-free use with restrictions; stock media must be part of a larger creative work and must not be redistributed on its own. See the [Pixabay Content License](https://pixabay.com/service/license-summary/) and [music-use FAQ](https://pixabay.com/service/faq/).
